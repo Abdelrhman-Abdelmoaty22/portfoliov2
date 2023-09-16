@@ -389,6 +389,13 @@ form .send-btn:hover{
     font-size: 27px;
 }
 
+.scroll-top i:hover{
+    background: var(--text-color);
+    color: #075fe4;
+    box-shadow: 0 0 20px #075fe4;
+    cursor: pointer;
+}
+
 @media (max-width: 1700px){
     header{
         padding: 20px 8%;
