@@ -17,3 +17,13 @@ window.onscroll = () => {
     navlist.classList.remove('active')
 };
 
+var icon = document.querySelector('#icon');
+
+icon.onclick = () =>{
+    document.body.classList.toggle('light-theme')
+    if(document.body.classList.contains('light-theme')){
+        icon.src = "moon.png"
+    }else{
+        icon.src = "sun.png"
+    }
+};
