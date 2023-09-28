@@ -206,10 +206,10 @@
 
         <div class="contact-form" data-aos="zoom-in">
             <form action="">
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Email Address.." required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
-                <input type="submit" value="Send Message" class="send-btn" >
+                <input type="text" id="name" placeholder="Your name"  required>
+                <input type="email" placeholder="Email Address.." id="email"  required>
+                <textarea id="message" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                <button type="submit" id="btn" onclick="sendToWhatsapp()" class="send-btn">Send Message</button>
             </form>
         </div>
     </section>
